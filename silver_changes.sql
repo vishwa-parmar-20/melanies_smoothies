@@ -1,9 +1,1 @@
-USE silver_db;
-CREATE TABLE customersNew (
-    id INT PRIMARY KEY,
-    name VARCHAR(100),
-    nickname VARCHAR(100),
-    logo VARCHAR(40),
-    email VARCHAR(100),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+ALTER TABLE silver_db.silver_schema.sales_summary DROP COLUMN order_date;
